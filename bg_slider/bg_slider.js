@@ -5,7 +5,7 @@ const left = document.getElementById('left');
 const slides = document.querySelectorAll('.slide');
 
 let activeSlide = 0; 
-
+setBgForBody ();
 right.addEventListener('click', moveRight);
 left.addEventListener('click', moveLeft);
 
