@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-form {
+form, #weather {
     /* background: pink; */
     display: block;
     width: 100%;
@@ -52,3 +52,17 @@ ul li{
 ul li span {
     color: #777;
 }
+
+#city {
+    color: orangered;
+}
+
+button#change {
+    border: 2px solid #888;
+    background: transparent;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+
+}
+/* https://youtu.be/J4WSmVX6Lhg?t=1198 */
